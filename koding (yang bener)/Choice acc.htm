@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choice Image</title>
+    <link rel="stylesheet" href="lopyu.css">
+    <div class="ovrr">
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+        .figure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 50px;
+            z-index: 1;
+        }
+        .circle img {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+        }
+        .rectangle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 40px;
+            background-color: lightgray;
+            margin-top: 10px;
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .or {
+            font-size: 24px;
+            margin: 0 50px;
+            z-index: 1;
+            color: rgb(0, 0, 0);
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #f0f0f0;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            border-radius: 5px;
+            z-index: 2;
+        }
+       
+          .background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Meletakkan video di belakang konten lain */
+            object-fit: cover; /* Memastikan video menutupi seluruh background */
+          }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="abstract-background"></div>
+    <a href="http://127.0.0.1:3000/Autobio alpareji.htm" class="back-button">Kembali</a>
+    <video autoplay loop muted class="background-video">
+        <source src="guts latian.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="container">
+        <div class="figure">
+            <div class="circle">
+                <img src="2 PP.jpg" alt="Image 1">
+            </div>
+            <a href="https://www.instagram.com/ralrzy/?hl=en" class="rectangle" style="background-color: rgb(191, 0, 255); color: rgb(255, 255, 255);">First ACC</a>
+        </div>
+        <div class="or">OR</div>
+        <div class="figure">
+            <div class="circle">
+                <img src="1 PP.jpg" alt="Image 2">
+            </div>
+            <a href="https://www.instagram.com/2lpahreji/?hl=en" class="rectangle" style="background-color: rgb(191, 0, 255); color: rgb(255, 255, 255);">Second ACC</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

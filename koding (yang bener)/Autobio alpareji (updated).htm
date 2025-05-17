@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autobiography Rezy Stradlin (Alpa)</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    
+
+        /* Kontainer utama */
+        .semua {
+            position: relative;
+            z-index: 1; /* Pastikan konten berada di atas video */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .circle-image {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+
+        /* Kotak teks dengan latar belakang solid */
+        .green-box, .mimpi {
+            background-color: #000000; /* Warna solid, bukan transparan */
+            padding: 15px;
+            border-radius: 10px;
+            display: block; /* Mengubah dari inline-block ke block */
+            width: 80%; /* Menyamakan ukuran dengan kotak lainnya */
+            margin: 10px auto; /* Pusatkan kotak */
+            color: white; /* Pastikan teks tetap terlihat */
+        }
+
+        .button {
+            background-color: rgb(191, 0, 255);
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: rgb(150, 0, 200);
+        }
+
+        /* Video background */
+        .background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Meletakkan video di belakang konten lain */
+            object-fit: cover; /* Memastikan video menutupi seluruh background */
+        }
+        .instagram-button {
+    width: 30px; /* Sesuaikan ukuran gambar */
+    height: 30px;
+    cursor: pointer; /* Menjadikan gambar sebagai tombol */
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+
+    <!-- Video sebagai background -->
+    <video autoplay loop muted class="background-video">
+        <source src="zelda.mp4" type="video/mp4">
+    </video>
+
+    <div class="semua">
+        <h1 class="green-box">Alfahrezy's Autobiography</h1>
+        <img class="circle-image" src="poto alpa.png" alt="Profile Photo">
+
+        <!-- Tombol Instagram -->
+        <!-- Tombol Instagram sebagai gambar -->
+<div style="text-align: center;">
+    <a href="http://127.0.0.1:3000/Choice acc.htm">
+        <img class="instagram-button" src="Logo insta - Copy.png" alt="Instagram">
+    </a>
+</div>
+
+        <hr>
+        <div class="nama-green-box"><p>Rhasya Aji Alfahrezy known as <b>Alfa/Reji</b></p></div>
+
+        <h2>About Me</h2>
+        <div class="about green-box">
+            <p>Uy sob, nama ku Rhasya Aji Alfahrezy atau biasa dipanggil Alpa atau Reji, 
+            <br>lahir di Bekasi 7 Maret 2010 jadi di waktu ku bikin portofolio ini umur ku masih 14 tahun.
+            <br>Kalo ditanya hobi ku apa kayaknya 1 paragraf pun ga cukup buat ngejelasin hobi ku saking banyaknya.
+            <br>Tapi secara garis besar hobi ku adalah semua hal yang berhubungan dengan musik,
+            <br>dari dengerin musik, main alat musik, sampe bikin musik sendiri.
+            <br>Aku sangat mengidolakan salah satu musisi Grunge yang punya sound yang khas,
+            <br>yaitu mendiang Kurt Cobain. Musik-musiknya menginspirasiku lebih jauh untuk bermain musik,
+            <br>terutama lagu-lagu di album IN UTERO, dengan sound Grunge yang khas.
+            <br>Kurt Cobain membuat sebuah masterpiece yang merubah dunia musik di masa depan.
+            </p>
+        </div>
+
+        <h2>Achievements</h2>
+        <div class="wegreen-box">
+            <p>- Bernafas
+            <br>- Hidup
+            </p>
+        </div>
+
+        <h2>Dreams</h2>
+        <div class="mimpi green-box">
+            <p>Mungkin udah bisa disimpulkan ya mimpi/cita-citaku dari bagian "About Me" tadi.
+            <br>Mimpi ku di masa depan tuh aku pengen banget jadi seorang musisi dengan genre Grunge atau pun "Alternative-rock".
+            <br>Kelak aku akan membuat "Nirvana" sendiri untuk generasi ku.
+            </p>
+        </div>
+
+        <hr>
+    </div>
+
+</body>
+</html>
